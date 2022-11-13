@@ -1,0 +1,273 @@
+:root {
+    /* основний колір тексту */
+    --primary_text-color: #757575;
+    /* колір тексту заголовків */
+    --title-text-color: #212121;
+    /* основний білий колір*/
+    --primary-white-color: #FFFFFF;
+    /* вторичний чорний колір*/
+    --secondary-black-color: #000000;
+    /* вторичний чорний колір*/
+    --secondary-white-color-opacity: rgba(255, 255, 255, 0.6);
+    /* колір акценту*/
+    --accent_color: #2196F3;
+
+    /* колір фону */
+    --primari-bg-color: #F5F5F5;
+    /* колір фону */
+    --primari-black-bg-color: #2F303A;
+    /* вторичний білий колір фону */
+    --secondary-bg-color: #F5F4FA;
+
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+/* ------Utilitarian Class  -------- */
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent_color);
+}
+
+.btn {
+    font-family: inherit;
+    border-radius: 4px;
+    border: 0;
+}
+
+/* ------HEADER-------- */
+.header {
+    background: var(--primary-white-color);
+}
+
+.header-logo-black {
+    color: var(--secondary-black-color);
+}
+
+.header-auth-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.header-link:hover,
+.header-link:focus,
+.current {
+    color: var(--accent_color);
+}
+
+.header-mail,
+.header-tel {
+    color: var(--primary_text-color);
+}
+
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+    color: var(--accent_color);
+}
+
+/* ------ HERO -------- */
+.hero {
+    /* временно */
+    background: var(--primari-black-bg-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+
+.hero-btn {
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+    background: var(--accent_color);
+    border: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background: #188CE8;
+}
+
+/* ------ PROPERTY -------- */
+.property-pre-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.property-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary_text-color);
+}
+
+/* ------OUR WORK-------- */
+
+
+/* ------OUR TEAM-------- */
+.our-team {
+    background: var(--secondary-bg-color);
+}
+
+.our-team-items {
+    background: var(--primary-white-color);
+}
+
+.our-team-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.our-team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary_text-color);
+}
+
+/* ------ FOOTER -------- */
+.footer {
+    background: var(--primari-black-bg-color);
+}
+
+.footer-logo-white {
+    color: var(--primary-white-color);
+}
+
+.footer-address-contact {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+}
+
+.footer-address-tel,
+.footer-address-mail {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-white-color-opacity);
+}
+
+.footer-address {
+    font-style: inherit;
+}
+
+.footer-address-contact:hover,
+.footer-address-contact:focus,
+.footer-address-mail:hover,
+.footer-address-mail:focus,
+.footer-address-tel:hover,
+.footer-address-tel:focus {
+    color: var(--accent_color);
+}
+
+/* ------PORTFOLIO  -------- */
+
+/* ------ FILTERS -------- */
+.portfolio_btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background: var(--secondary-bg-color);
+}
+
+.portfolio_btn:hover,
+.portfolio_btn:focus {
+    color: var(--primary-white-color);
+    background: var(--accent_color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/* ------ PROJECT -------- */
+
+.project-items {
+    border: 1px solid #EEEEEE;
+}
+
+
+.project-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.project-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary_text-color);
+}
