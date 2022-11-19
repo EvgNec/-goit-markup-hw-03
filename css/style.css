@@ -227,9 +227,20 @@ header .container {
 }
 
 /* ------ PROPERTY -------- */
+.property {
+    padding: 94px 0;
+}
+
 .container .property-list {
     display: flex;
-    margin: 94px 0;
+}
+
+.property-items {
+    margin-right: 30px;
+}
+
+.property-items:last-child {
+    margin-right: 0;
 }
 
 .property-pre-title {
@@ -248,11 +259,32 @@ header .container {
 }
 
 /* ------OUR WORK-------- */
+.our-work {
+    margin-bottom: 94px;
+}
 
+.our-work-title {
+    padding-bottom: 50px;
+}
+
+.our-work .our-work-list {
+    display: flex;
+    justify-content: space-around;
+}
 
 /* ------OUR TEAM-------- */
 .our-team {
     background: var(--secondary-bg-color);
+    padding: 94px 0;
+}
+
+.our-team-title {
+    padding-bottom: 50px;
+}
+
+.our-team .our-team-list {
+    display: flex;
+    justify-content: space-around;
 }
 
 .our-team-items {
@@ -266,6 +298,8 @@ header .container {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 .our-team-text {
@@ -274,6 +308,7 @@ header .container {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary_text-color);
+    padding-bottom: 30px;
 }
 
 /* ------ FOOTER -------- */
@@ -281,8 +316,27 @@ header .container {
     background: var(--primari-black-bg-color);
 }
 
+.footer-logo {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    display: block;
+}
+
 .footer-logo-white {
     color: var(--primary-white-color);
+
+}
+
+.footer-list {
+    padding-bottom: 60px;
+}
+
+.footer-items {
+    padding-bottom: 9px;
+}
+
+.footer-items:last-child {
+    padding-bottom: 0;
 }
 
 .footer-address-contact {
