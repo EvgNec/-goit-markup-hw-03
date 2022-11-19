@@ -112,11 +112,13 @@ body {
 /* ------HEADER-------- */
 .header {
     background: var(--primary-white-color);
+    border: 1px solid #ECECEC;
 }
 
 header .container {
     display: flex;
     align-items: center;
+
 }
 
 .header-logo {
@@ -367,8 +369,22 @@ header .container {
 }
 
 /* ------PORTFOLIO  -------- */
+.portfolio .container {
+    margin: 94px 0;
+}
+
+.container .portfolio-nav {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 34px;
+}
+
 
 /* ------ FILTERS -------- */
+.btn-items:not(:last-child) {
+    margin-right: 8px;
+}
+
 .portfolio_btn {
     font-weight: 500;
     font-size: 16px;
@@ -377,6 +393,7 @@ header .container {
     letter-spacing: 0.03em;
     color: var(--title-text-color);
     background: var(--secondary-bg-color);
+    padding: 6px 25px;
 }
 
 .portfolio_btn:hover,
@@ -387,9 +404,21 @@ header .container {
 }
 
 /* ------ PROJECT -------- */
+.container .project-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-items .container {
+    padding: 20px 24px;
+    margin: 0;
+}
 
 .project-items {
     border: 1px solid #EEEEEE;
+    width: calc((100% - 90px) / 3);
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 
