@@ -227,6 +227,11 @@ header .container {
 }
 
 /* ------ PROPERTY -------- */
+.container .property-list {
+    display: flex;
+    margin: 94px 0;
+}
+
 .property-pre-title {
     font-size: 14px;
     line-height: 1.14;
