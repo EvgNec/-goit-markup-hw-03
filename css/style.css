@@ -324,16 +324,11 @@ header .container {
 /* ------ FOOTER -------- */
 .footer {
     background: var(--primari-black-bg-color);
-}
-
-.footer .container {
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
 .footer-logo {
-    padding-top: 60px;
-    padding-bottom: 20px;
     display: block;
 }
 
@@ -342,9 +337,7 @@ header .container {
 
 }
 
-.footer-list {
-    padding-bottom: 60px;
-}
+.footer-list {}
 
 .footer-items {
     padding-bottom: 9px;
@@ -441,7 +434,7 @@ header .container {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
-    padding-left: 24px;
+
 }
 
 .project-text {
@@ -449,10 +442,12 @@ header .container {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--primary_text-color);
-    padding-left: 24px;
+
 }
 
 .project-items .descr {
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 24px;
+    padding-left: 24px;
 }
